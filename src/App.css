@@ -80,3 +80,36 @@
   font-family: 'Montserrat', sans-serif;
   padding: 0 0 0 4vh;
 }
+
+.eng {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  margin: 1.4em 0 1em 6em;
+  width: 2.5rem;
+  height: 1.7rem;
+  border-radius: 8px 0 0 8px;
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+}
+
+.esp {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  margin: 1.4em 0 1em 0;
+  width: 2.5rem;
+  height: 1.7rem;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  border: none;
+}
+
+.active {
+  background-color: black;
+  color:rgb(255, 255, 255);
+}
+.link-container {
+  display: flex;
+}

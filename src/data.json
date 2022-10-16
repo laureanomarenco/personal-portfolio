@@ -1,0 +1,98 @@
+{
+    "eng": {
+        "about": "ABOUT ME",
+        "about1": "Full Stack web developer with specialized training in Comunication and Web Design. Experience working with NodeJs, React, Redux, SQL, Express, among other technologies.",
+        "about2": "I led CI/CD of a web-app aimed at connecting people and pets, also participating in its design and development.",
+        "about3": "Strong interest in the acquiring of work experience and new knowledge in programming.",
+
+        "experience": "EXPERIENCE",
+        "experienceList": [
+            {
+                "title": "Public attention and data administration in Distrito Sudoeste Rosario",
+                "date": "[Mar 2018 - Mar 2019]",
+                "description": "Manage administratives procedures related to creations and renewals of driving licenses."
+            },
+            {
+                "title": "Planification and Desing of Torrente magazine ",
+                "date": "[Jan 2020 - Mar 2020] ",
+                "description": "Lead the work team. Design and develop the magazine as a team, using concepts of layout, color and design, using InDesign and Photoshop."
+            }
+        ],
+
+        "competencies": "COMPETENCIES",
+        "softSkills": "Autonomy. Leadership. Colaboration. Perseverance. Adaptability. Crisis management. Public speaking.",
+
+        "lenguages": "LENGUAGES",
+        "idiom1": "English - intermediate",
+        "idiom2": "French - intermediate",
+
+        "other": "OTHER DATA OF INTEREST",
+        "otherDescription": "I'm a very curious person who has various ground wires, the most important: my affections. I do music, read novels and essays. I like plants, animals, and  nature.",
+
+        "projects": "PROJECTS",
+        "projectsList": [
+            {
+                "title": "Web Page Pokemon Tribute",
+                "date": "[Ago 2022]",
+                "description": "Comprehensively design and develop the page usign React, Redux, Express y SQL, effectively integrating the pokemon API to retrieve the data.",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858793/poke_vgy6qw.png",
+                "link" : "https://pokemon-tribute.vercel.app/"
+            },
+            {
+                "title": "Web Page Mascotapp",
+                "date": "[Oct 2022]",
+                "description": "Design and develop the page in an agile team using React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc. Lead the CI/CD integration and deployment of the team. Effectively implement automatic mail systems with nodemailer and payment system with Stripe. Design and implement the points and badges system.",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858794/mascotapp_cxbz3y.png",
+                "link" : "https://mascotapps.vercel.app/"
+            }
+        ]
+    },
+    "esp": {
+        "about": "SOBRE MI",
+        "about1": "Full Stack web developer con formación especializada en Comunicación y Diseño Web.  Experiencia trabajando con NodeJS, React, Redux, SQL, Express, entre otras teconologías.",
+        "about2": "Lideré CI/CD de una web-app orientada a conectar personas y mascotas, también participando de su diseño y desarrollo.",
+        "about3": "Fuerte interés en la adquisición de experiencia laboral y nuevos conocimientos en programación.",
+
+        "experience": "EXPERIENCIA",
+        "experienceList": [
+            {
+                "title": "Atención al público y administración de datos en Distrito Sudoeste Rosario",
+                "date": "[Mar 2018 - Mar 2019]",
+                "description": "Gestionar trámites administrativos relativos a creaciones y renovaciones de registros de conducir."
+            },
+            {
+                "title": "Planificación y diseño de Revista Torrente",
+                "date": "[Ene 2020 - Mar 2020] ",
+                "description": "Liderar el equipo de trabajo. Diseñar y desarrollar en equipo la revista utilizando conceptos de maquetación, color y diseño, utilizando InDesign y Photoshop."
+            }
+        ],
+
+        "competencies": "COMPETENCIAS",
+        "softSkills": "Autonomía. Liderazgo. Colaboración. Perseverancia. Adaptabilidad. Manejo de crisis. Public speaking.",
+
+        "lenguages": "IDIOMAS",
+        "idiom1": "Inglés - intermedio",
+        "idiom2": "Francés - intermedio",
+    
+        "other": "OTROS DATOS SOBRE MI",
+        "otherDescription": "Soy una persona muy curiosa que tiene diversos cables a tierra, el más importante: mis afectos. Hago música. Leo novelas y ensayos. Me gustan las plantas, los animales y la naturaleza.",
+
+        "projects": "PROYECTOS",
+        "projectsList": [
+            {
+                "title": "Página web Pokemon Tribute",
+                "date": "[Ago 2022]",
+                "description": "Diseñar y desarrollar integralmente la página utilizando React, Redux, Express y SQL, integrando efectivamente la API de pokemon para recuperar los datos.",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858793/poke_vgy6qw.png",
+                "link" : "https://pokemon-tribute.vercel.app/"
+            },
+            {
+                "title": "Página web Mascotapp",
+                "date": "[Oct 2022]",
+                "description": "Diseñar y desarrollar en equipo ágil la página utilizando React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858794/mascotapp_cxbz3y.png",
+                "link" : "https://mascotapps.vercel.app/"
+            }
+        ]
+    }
+}

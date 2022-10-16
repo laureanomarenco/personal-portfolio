@@ -1,14 +1,15 @@
-import './App.css';
-import Body from './components/Body.tsx';
-import Card from './components/Card.tsx';
-import NavBar from './components/NavBar.tsx';
+import "./App.css";
+
+import Body from "./components/Body";
+import Card from "./components/Card";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <Body/>
-      <Card/>
+      <NavBar />
+      <Body />
+      <Card />
     </>
   );
 }
