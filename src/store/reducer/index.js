@@ -11,6 +11,7 @@ export default function reducer(state = initialState, action) {
         ...state,
         lenguage: action.payload,
       };
+
     default:
       return state;
   }

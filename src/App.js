@@ -1,15 +1,17 @@
 import "./App.css";
 
-import Body from "./components/Body";
-import Card from "./components/Card";
+import Info from "./components/Info";
+import Projects from "./components/Projects";
 import NavBar from "./components/NavBar";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Body />
-      <Card />
+      <Info />
+      <Projects />
+      <Contact />
     </>
   );
 }

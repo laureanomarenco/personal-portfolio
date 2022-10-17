@@ -4,7 +4,6 @@
         "about1": "Full Stack web developer with specialized training in Comunication and Web Design. Experience working with NodeJs, React, Redux, SQL, Express, among other technologies.",
         "about2": "I led CI/CD of a web-app aimed at connecting people and pets, also participating in its design and development.",
         "about3": "Strong interest in the acquiring of work experience and new knowledge in programming.",
-
         "experience": "EXPERIENCE",
         "experienceList": [
             {
@@ -18,41 +17,62 @@
                 "description": "Lead the work team. Design and develop the magazine as a team, using concepts of layout, color and design, using InDesign and Photoshop."
             }
         ],
-
         "competencies": "COMPETENCIES",
         "softSkills": "Autonomy. Leadership. Colaboration. Perseverance. Adaptability. Crisis management. Public speaking.",
-
         "lenguages": "LENGUAGES",
         "idiom1": "English - intermediate",
         "idiom2": "French - intermediate",
-
         "other": "OTHER DATA OF INTEREST",
         "otherDescription": "I'm a very curious person who has various ground wires, the most important: my affections. I do music, read novels and essays. I like plants, animals, and  nature.",
-
         "projects": "PROJECTS",
         "projectsList": [
             {
                 "title": "Web Page Pokemon Tribute",
                 "date": "[Ago 2022]",
                 "description": "Comprehensively design and develop the page usign React, Redux, Express y SQL, effectively integrating the pokemon API to retrieve the data.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858793/poke_vgy6qw.png",
-                "link" : "https://pokemon-tribute.vercel.app/"
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032107/6x93vp_nolefh.gif",
+                "link": "https://pokemon-tribute.vercel.app/",
+                "items": [
+                    "Design and color concepts",
+                    "Conditional rendering",
+                    "CRUD, validations, forms"
+                ]
             },
             {
                 "title": "Web Page Mascotapp",
                 "date": "[Oct 2022]",
-                "description": "Design and develop the page in an agile team using React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc. Lead the CI/CD integration and deployment of the team. Effectively implement automatic mail systems with nodemailer and payment system with Stripe. Design and implement the points and badges system.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858794/mascotapp_cxbz3y.png",
-                "link" : "https://mascotapps.vercel.app/"
+                "description": "Design and develop the page in an agile team using React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032022/6x93hs_ekzrx7.gif",
+                "link": "https://mascotapps.vercel.app/",
+                "items": [
+                    "Lead the CI/CD integration and deployment of the team.",
+                    "Effectively implement automatic mail systems with nodemailer and payment system with Stripe.",
+                    "Design and implement points and badges system."
+                ]
+            },
+            {
+                "title": "Torrente Magazine",
+                "date": "[Ene 2020 - Mar 2020]",
+                "description": "I lead the team. Design and development in team",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032188/6x942c_x2z7nc.gif",
+                "link": "_blank",
+                "items": [
+                    "I lead the team and the general idea of the magazine",
+                    "Layout on inDesign using professional techniques",
+                    "Edition in Photoshop of some material to the magazine"
+                ]
             }
-        ]
+        ],
+        "contact": "CONTACT ME",
+        "contactText": "If you want to contact me don't doubt and send me an email or a message through my social networks.",
+        "placeholderMail": "Enter your email",
+        "send": "send"
     },
     "esp": {
         "about": "SOBRE MI",
         "about1": "Full Stack web developer con formación especializada en Comunicación y Diseño Web.  Experiencia trabajando con NodeJS, React, Redux, SQL, Express, entre otras teconologías.",
         "about2": "Lideré CI/CD de una web-app orientada a conectar personas y mascotas, también participando de su diseño y desarrollo.",
         "about3": "Fuerte interés en la adquisición de experiencia laboral y nuevos conocimientos en programación.",
-
         "experience": "EXPERIENCIA",
         "experienceList": [
             {
@@ -66,33 +86,55 @@
                 "description": "Liderar el equipo de trabajo. Diseñar y desarrollar en equipo la revista utilizando conceptos de maquetación, color y diseño, utilizando InDesign y Photoshop."
             }
         ],
-
         "competencies": "COMPETENCIAS",
         "softSkills": "Autonomía. Liderazgo. Colaboración. Perseverancia. Adaptabilidad. Manejo de crisis. Public speaking.",
-
         "lenguages": "IDIOMAS",
         "idiom1": "Inglés - intermedio",
         "idiom2": "Francés - intermedio",
-    
         "other": "OTROS DATOS SOBRE MI",
         "otherDescription": "Soy una persona muy curiosa que tiene diversos cables a tierra, el más importante: mis afectos. Hago música. Leo novelas y ensayos. Me gustan las plantas, los animales y la naturaleza.",
-
         "projects": "PROYECTOS",
         "projectsList": [
             {
                 "title": "Página web Pokemon Tribute",
                 "date": "[Ago 2022]",
                 "description": "Diseñar y desarrollar integralmente la página utilizando React, Redux, Express y SQL, integrando efectivamente la API de pokemon para recuperar los datos.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858793/poke_vgy6qw.png",
-                "link" : "https://pokemon-tribute.vercel.app/"
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032107/6x93vp_nolefh.gif",
+                "link": "https://pokemon-tribute.vercel.app/",
+                "items": [
+                    "Conceptos de diseño y color",
+                    "Renderizado condicional",
+                    "CRUD, formularios y validaciones"
+                ]
             },
             {
                 "title": "Página web Mascotapp",
                 "date": "[Oct 2022]",
                 "description": "Diseñar y desarrollar en equipo ágil la página utilizando React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1665858794/mascotapp_cxbz3y.png",
-                "link" : "https://mascotapps.vercel.app/"
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032022/6x93hs_ekzrx7.gif",
+                "link": "https://mascotapps.vercel.app/",
+                "items": [
+                    "Lideré CI/CD integración y deploy del equipo",
+                    "Implementé sistemas de mail con nodemailer y sistema de pagos con Stripe",
+                    "Diseñé e implementé el sistema de puntos e insignias"
+                ]
+            },
+            {
+                "title": "Revista Torrente",
+                "date": "[Ene 2020 - Mar 2020]",
+                "description": "Liderar el equipo de trabajo. Diseñar y desarrollar en equipo la revista utilizando conceptos de maquetación, color y diseño.",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032188/6x942c_x2z7nc.gif",
+                "link": "_blank",
+                "items": [
+                    "Lideré el equipo y la idea de general de la revista",
+                    "Maquetación en inDesign utilizando técnicas profesionales",
+                    "Edición en Photoshop de varios materiales para la revista."
+                ]
             }
-        ]
+        ],
+        "contact": "CONTACTAME",
+        "contactText": "Si querés contactarme no dudes en enviarme un mail o un mensaje a través de mis redes sociales.",
+        "placeholderMail": "Ingresá tu mail",
+        "send": "enviar"
     }
 }
