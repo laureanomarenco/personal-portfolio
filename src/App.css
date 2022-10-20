@@ -25,7 +25,13 @@ html {
   .project-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 4vh 0 4vh 0;
+    padding-top: 4vh;
+    transition-property: background-image;
+    transition-duration: 0.5s;
+  }
+  
+  .project-container:hover {
+    background-color: rgb(252, 252, 235);
   }
 
   .conteiner-one {
@@ -67,7 +73,11 @@ html {
   .project-container {
     display: flex;
     flex-direction: column;
-    padding: 4vh 0 4vh 0;
+    padding-top: 2vh;
+  }
+
+  .project-container:hover {
+    background-color: rgb(250, 250, 243);
   }
 
   .project-image {
@@ -87,7 +97,7 @@ html {
 }
 
 .nav-background {
-  background-color: rgb(183, 184, 188);
+  background-color: rgb(215, 216, 218);
   display: flex;
   justify-content: space-between;
   font-family: "Montserrat", sans-serif;
@@ -109,6 +119,8 @@ html {
   align-items: flex-start;
   justify-content: space-between;
   cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 0.3s;
 }
 
 .flex-container:hover {
@@ -118,7 +130,33 @@ html {
 .flex-container-row {
   display: flex;
   flex-direction: column;
-  padding: 4vh;
+  padding: 2vh;
+}
+
+.button {
+  background-color:rgb(163, 163, 163);
+  margin: 1rem 1rem 0 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border-style: none;
+  transition-property: color, background-color;
+  transition-duration: 0.5s;
+}
+
+.button:hover {
+  color: white;
+  background-color:rgb(1, 1, 1);
+}
+
+.input-mail {
+  margin: 0 1rem 0 1rem;
+  padding: 0.5rem;
+}
+
+.input-text {
+  margin: 1rem 1rem 0 1rem;
+  padding-bottom: 8rem
 }
 
 .button-hidden {
@@ -129,9 +167,11 @@ html {
 }
 
 .title {
-  color: rgb(173, 174, 184);
+  color: rgb(163, 163, 163);
   font-weight: 500;
   padding: 2vh 4vh 2vh 4vh;
+  transition-property: font-weight;
+  transition-duration: 0.5s;
 }
 
 .sub-title {
@@ -142,7 +182,7 @@ html {
 
 .text {
   font-family: "Montserrat", sans-serif;
-  padding: 0 4vh 4vh 4vh;
+  padding: 0 4vh 2vh 4vh;
 }
 
 .text-gray {
@@ -166,7 +206,9 @@ html {
   border-radius: 8px 0 0 8px;
   cursor: pointer;
   border: none;
+  transition-duration: 0.7s;
 }
+
 
 .esp {
   font-family: "Montserrat", sans-serif;
@@ -178,11 +220,42 @@ html {
   border-radius: 0 8px 8px 0;
   cursor: pointer;
   border: none;
+  transition-property: background-color;
+  transition-duration: 0.7s;
 }
 
-.active {
+.esp:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.eng:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.eng-active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   background-color: black;
   color: rgb(255, 255, 255);
+  margin: 1.4em 0 1em 6em;
+  width: 2.5rem;
+  height: 1.7rem;
+  border-radius: 8px 0 0 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.esp-active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  margin: 1.4em 0 1em 0;
+  width: 2.5rem;
+  height: 1.7rem;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  border: none;
 }
 
 .active-section {

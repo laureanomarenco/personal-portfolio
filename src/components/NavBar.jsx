@@ -30,7 +30,7 @@ export default function NavBar() {
           </a>
           {leng === "eng" ? (
             <>
-              <button className="eng active" onClick={handleClick} value="eng">
+              <button className="eng-active" onClick={handleClick} value="eng">
                 eng
               </button>
               <button className="esp" onClick={handleClick} value="esp">
@@ -42,7 +42,7 @@ export default function NavBar() {
               <button className="eng" onClick={handleClick} value="eng">
                 eng
               </button>
-              <button className="esp active" onClick={handleClick} value="esp">
+              <button className="esp-active" onClick={handleClick} value="esp">
                 esp
               </button>
             </>

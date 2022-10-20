@@ -64,7 +64,7 @@
             }
         ],
         "contact": "CONTACT ME",
-        "contactText": "If you want to contact me don't doubt and send me an email or a message through my social networks.",
+        "contactText": "If you want to contact me don't doubt. You can send me an email right here or contact me through my social networks.",
         "placeholderMail": "Enter your email",
         "send": "send"
     },
@@ -133,7 +133,7 @@
             }
         ],
         "contact": "CONTACTAME",
-        "contactText": "Si querés contactarme no dudes en enviarme un mail o un mensaje a través de mis redes sociales.",
+        "contactText": "Si querés contactarme no dudes. Podés enviarme un mail acá mismo o contactarme a través de mis redes sociales.",
         "placeholderMail": "Ingresá tu mail",
         "send": "enviar"
     }
