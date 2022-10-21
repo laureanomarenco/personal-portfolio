@@ -3,6 +3,7 @@ import data from "../data.json";
 import React, { useState } from "react";
 import axios from "axios";
 import { useSelector } from "react-redux";
+import Swal from "sweetalert2";
 import { SlPlus, SlClose } from "react-icons/sl";
 
 export default function Contact() {
@@ -22,9 +23,17 @@ export default function Contact() {
     e.preventDefault();
     const mailSend = await axios.post('https://personal-back-production.up.railway.app/api/mail', mail)
     console.log(mailSend.data)
-    alert('Mail enviado correctamente, ¡Muchas gracias!')
+    
   }
 
+  const showAlert = () => {
+    Swal.fire({
+      title: "Gracias!",
+      text: "Tu mail fue enviado correctamente",
+      icon: "success",
+      confirmButtonText: "Ok",
+    });
+  }
   return (
     <>
       {!showContact ? (
@@ -60,7 +69,7 @@ export default function Contact() {
                   placeholder={data[leng].placeholderMail}
                 />
                 <textarea name="text" onChange={handleChange} className='input-text'></textarea>
-                <button type="submit" className="button">{data[leng].send}</button>
+                <button type="submit" className="button" onClick={showAlert}>{data[leng].send}</button>
               </form>
             </div>
           </div>
