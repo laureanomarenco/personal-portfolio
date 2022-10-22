@@ -1,5 +1,6 @@
 {
     "eng": {
+        "description": "Hi! I'm a web designer full-stack looking for his first oficial job to still making sites and apps. I have background in social communication and design, which helps me a lot to start in IT world. ¡I'm very motivated about keep lerning more things!",
         "about": "ABOUT ME",
         "about1": "Full Stack web developer with specialized training in Comunication and Web Design. Experience working with NodeJs, React, Redux, SQL, Express, among other technologies.",
         "about2": "I led CI/CD of a web-app aimed at connecting people and pets, also participating in its design and development.",
@@ -25,6 +26,7 @@
         "other": "OTHER DATA OF INTEREST",
         "otherDescription": "I'm a very curious person who has various ground wires, the most important: my affections. I do music, read novels and essays. I like plants, animals, and  nature.",
         "projects": "PROJECTS",
+        "projectsNav": "Projects",
         "projectsList": [
             {
                 "title": "Web Page Pokemon Tribute",
@@ -64,11 +66,13 @@
             }
         ],
         "contact": "CONTACT ME",
+        "contactNav": "Contact",
         "contactText": "If you want to contact me don't doubt. You can send me an email right here or contact me through my social networks.",
         "placeholderMail": "Enter your email",
         "send": "send"
     },
     "esp": {
+        "description": "¡Hola! Soy un diseñador web completo que busca su primer trabajo oficial para seguir creando sitios y aplicaciones. Tengo experiencia en diseño y comunicación social, lo que me ayuda mucho para iniciarme en el mundo de las TI. ¡Estoy muy motivada por seguir aprendiendo más cosas!",
         "about": "SOBRE MI",
         "about1": "Full Stack web developer con formación especializada en Comunicación y Diseño Web.  Experiencia trabajando con NodeJS, React, Redux, SQL, Express, entre otras teconologías.",
         "about2": "Lideré CI/CD de una web-app orientada a conectar personas y mascotas, también participando de su diseño y desarrollo.",
@@ -94,6 +98,7 @@
         "other": "OTROS DATOS SOBRE MI",
         "otherDescription": "Soy una persona muy curiosa que tiene diversos cables a tierra, el más importante: mis afectos. Hago música. Leo novelas y ensayos. Me gustan las plantas, los animales y la naturaleza.",
         "projects": "PROYECTOS",
+        "projectsNav": "Proyectos",
         "projectsList": [
             {
                 "title": "Página web Pokemon Tribute",
@@ -133,6 +138,7 @@
             }
         ],
         "contact": "CONTACTAME",
+        "contactNav": "Contacto",
         "contactText": "Si querés contactarme no dudes. Podés enviarme un mail acá mismo o contactarme a través de mis redes sociales.",
         "placeholderMail": "Ingresá tu mail",
         "send": "enviar"

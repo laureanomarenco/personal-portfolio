@@ -6,9 +6,15 @@ import React, { useState } from "react";
 import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import changeLenguage from "../store/actions";
 import { useSelector, useDispatch } from "react-redux";
+import { SlPlus, SlClose } from "react-icons/sl";
+
 
 export default function Home() {
   const leng = useSelector((state) => state.lenguage);
+
+  const [showAbout, setShowAbout] = useState(true);
+  const [showProjects, setShowProjects] = useState(true);
+  const [showContact, setShowContact] = useState(true);
 
   const dispatch = useDispatch();
   function handleClick(e) {
@@ -44,11 +50,12 @@ export default function Home() {
   };
   return (
     <>
-      <div className="home-background">
+      <div className="home-background" id='land'>
         <div className="nav-container-name">
-          <h1>LAUREANO MARENCO</h1>
+          <h1 className="title-land">LAUREANO MARENCO</h1>
           <h3 className="decoration">FULL STACK WEB DEVELOPER</h3>
           <h5 className="decoration">Rosario, Argentina</h5>
+          <p>{data[leng].description}</p>
           <div className="link-container">
             <a href="mailto:laureanomarenco@gmail.com" className="no-deco">
               <AiOutlineMail className="icon" />
@@ -94,8 +101,17 @@ export default function Home() {
           alt="Laureano"
         />
       </div>
-      <div id="info" className="flex-container active-section">
+      {/* INFO ------------------------------------------------------------------------- */}
+      {!showAbout ? (
+        <div className="flex-container" onClick={() => setShowAbout(true)}>
+          <h1 className="title">INFO</h1>
+          <SlPlus className="button-hidden" />
+        </div>
+      ) : (
+    <>
+      <div id="info" className="flex-container active-section" onClick={() => setShowAbout(false)}>
         <h1 className="title">INFO</h1>
+        <SlClose className="button-hidden" />
       </div>
       <div className="body-container">
         <div className="container-one">
@@ -140,11 +156,22 @@ export default function Home() {
           <p className="text">{data[leng].otherDescription}</p>
         </div>
       </div>
-      <div className="flex-container active-section" id="projects">
+      </>
+      )}
+    {/* PROJECTS ------------------------------------------------------------------------- */}
+    {!showProjects ? (
+        <div className="flex-container" onClick={() => setShowProjects(true)}>
+          <h1 className="title">{data[leng].projects}</h1>
+          <SlPlus className="button-hidden" />
+        </div>
+      ) : (
+        <>
+      <div className="flex-container active-section" id="projects" onClick={() => setShowProjects(false)}>
         <h1 className="title">{data[leng].projects}</h1>
+        <SlClose className="button-hidden" />
       </div>
       {data[leng].projectsList.map((p) => {
-        return (
+          return (
           <div className="project-container">
             <div className="container-one">
               <h3 className="text-gray">
@@ -154,7 +181,7 @@ export default function Home() {
               <p className="text">{p.description}</p>
               <ul>
                 {p.items.map((i) => {
-                  return <li className="text">{i}</li>;
+                    return <li className="text">{i}</li>;
                 })}
               </ul>
             </div>
@@ -165,7 +192,9 @@ export default function Home() {
             </div>
           </div>
         );
-      })}
+    })}
+    </>
+      )}
       <div className="flex-container active-section" id="contact">
         <h1 className="title">{data[leng].contact}</h1>
       </div>

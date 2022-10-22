@@ -5,7 +5,9 @@
 }
 
 .navLink {
-    padding-right: 2em;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 2em;
+    padding: 0.8em;
     color: black;
 }
 
