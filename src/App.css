@@ -154,6 +154,19 @@ h1 {
   background-color: beige;
 }
 
+.nav-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  cursor: pointer;
+  /* transition-property: background-color;
+  transition-duration: 0.3s; */
+}
+
+.flex-container:hover {
+  background-color: beige;
+}
+
 .flex-container-row {
   display: flex;
   flex-direction: column;
@@ -183,7 +196,7 @@ h1 {
 
 .input-text {
   margin: 1rem 1rem 0 1rem;
-  padding-bottom: 8rem
+  padding-bottom: 5rem
 }
 
 .button-hidden {
