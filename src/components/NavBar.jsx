@@ -1,4 +1,5 @@
 import "../App.css";
+
 import React from "react";
 import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import changeLenguage from "../store/actions";
@@ -13,6 +14,7 @@ export default function NavBar() {
     dispatch(changeLenguage(e.target.value));
   }
   return (
+    <>
     <div className="nav-background">
       <div className="nav-container-name">
         <h1>LAUREANO MARENCO</h1>
@@ -53,7 +55,8 @@ export default function NavBar() {
         className="photo"
         src="https://res.cloudinary.com/dg7ssgadn/image/upload/v1665847714/fotoCV2_aymut9.png"
         alt="Laureano"
-      />
+        />
     </div>
+        </>
   );
 }
