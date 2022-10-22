@@ -6,15 +6,23 @@
   text-decoration: none;
 }
 
-html {
-  width: auto;
-  height: auto;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+}
+
+.navContainer {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
 }
 
 @media (min-width: 500px) {
   .photo {
     width: auto;
     height: 12rem;
+    margin: 12rem 10rem 0 8rem;
+    border-radius: 50%;
   }
 
   .body-container {
@@ -56,6 +64,20 @@ html {
     font-family: "Montserrat", sans-serif;
     padding: 0 0 0 4vh;
   }
+
+  .nav-container-name {
+    padding: 13rem 2rem 0 8rem;
+    
+  }
+
+  .home-background {
+    background-color: rgb(215, 216, 218);
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
 @media (max-width: 501px) {
@@ -94,18 +116,23 @@ html {
     font-family: "Montserrat", sans-serif;
     padding: 0 1vh 0 4vh;
   }
+
+  .nav-container-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  .home-background {
+    background-color: rgb(215, 216, 218);
+    height: 30vh;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
-.nav-background {
-  background-color: rgb(215, 216, 218);
-  display: flex;
-  justify-content: space-between;
-  font-family: "Montserrat", sans-serif;
-}
-
-.nav-container-name {
-  padding: 2rem 2rem 0 2rem;
-}
 
 .icon {
   color: black;
@@ -181,6 +208,7 @@ html {
 
 .title {
   color: rgb(163, 163, 163);
+  font-size: 2.1em;
   font-weight: 500;
   padding: 2vh 4vh 2vh 4vh;
   transition-property: font-weight;

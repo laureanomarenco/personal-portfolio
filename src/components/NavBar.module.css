@@ -1,0 +1,17 @@
+.navContainer {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLink {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 2em;
+    padding: 0.8em;
+    color: black;
+}
+
+.logoLink {
+    margin-left: 2em;
+    color: black;
+}
