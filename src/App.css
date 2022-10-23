@@ -136,9 +136,16 @@ h1 {
 
 .icon {
   color: black;
-  margin: 1em 1em 1em 0;
+  padding: 1em 1em 1em 0;
   width: auto;
   height: 2rem;
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
+
+.icon:hover {
+  width: auto;
+  height: 2.2rem;
 }
 
 .flex-container {
@@ -292,4 +299,5 @@ h1 {
 
 .link-container {
   display: flex;
+  margin-top: 1em;
 }
