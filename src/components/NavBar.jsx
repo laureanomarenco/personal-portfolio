@@ -12,7 +12,9 @@ export default function NavBar() {
   return (
     <>
       <div className='navContainer'>
-        <a href='#land' className={n.logoLink}>L</a>
+        <a href='#land'>
+          <img src='https://res.cloudinary.com/dg7ssgadn/image/upload/v1666547390/L_pgrvno.png' href='#land' className={n.logoLink}></img>
+        </a>
         <div>
         <a className={n.navLink} href='#info'>Info</a>
         <a className={n.navLink} href='#projects'>{data[leng].projectsNav}</a>

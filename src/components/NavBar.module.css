@@ -19,5 +19,7 @@
 
 .logoLink {
     margin-left: 2em;
+    width: auto;
+    height: 1.6em;
     color: black;
 }
