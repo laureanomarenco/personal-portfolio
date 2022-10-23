@@ -9,7 +9,7 @@ import { SlPlus, SlClose } from "react-icons/sl";
 export default function Contact() {
   const leng = useSelector((state) => state.lenguage);
 
-  const [showContact, setShowContact] = useState(false);
+  const [showContact, setShowContact] = useState(true);
   const [mail, setMail] = useState({});
 
   function handleChange(e) {
