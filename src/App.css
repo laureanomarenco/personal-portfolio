@@ -33,13 +33,6 @@ h1 {
   .project-container {
     display: grid;
     grid-template-columns: 50% 50%;
-    padding-top: 4vh;
-    transition-property: background-image;
-    transition-duration: 0.5s;
-  }
-  
-  .project-container:hover {
-    background-color: rgb(252, 252, 235);
   }
 
   .conteiner-one {
@@ -53,7 +46,7 @@ h1 {
   .project-image {
     padding: 0 4vh 4vh 4vh;
     height: auto;
-    width: 46vw;
+    width: 42vw;
   }
 
   .list {
@@ -105,7 +98,7 @@ h1 {
   .project-image {
     padding: 0 4vh 4vh 4vh;
     height: auto;
-    width: 84vw;
+    width: 75vw;
   }
 
   .list {
@@ -236,7 +229,7 @@ h1 {
 .text-gray {
   color: rgb(156, 158, 181);
   font-family: "Montserrat", sans-serif;
-  padding: 0 4vh 0 4vh;
+  padding: 2vh 4vh 0 4vh;
 }
 
 .text-contact {
@@ -342,3 +335,4 @@ h1 {
 .section:hover {
   background-color: beige;
 }
+

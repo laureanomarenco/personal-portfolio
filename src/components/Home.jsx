@@ -187,22 +187,20 @@ export default function Home() {
             <h1 className="title">{data[leng].projects}</h1>
             <SlClose className="button-hidden" />
           </div>
+          <div className="project-container">
           {data[leng].projectsList.map((p) => {
             return (
-              <div className="project-container">
-                <div className="container-one">
+                <div className="section">
                   <h3 className="text-gray">
                     {p.title}
                     <span className="text">{p.date}</span>
                   </h3>
                   <p className="text">{p.description}</p>
-                  <ul>
+                  <ul className="list">
                     {p.items.map((i) => {
                       return <li className="text">{i}</li>;
                     })}
                   </ul>
-                </div>
-                <div className="container-two">
                   <a href={p.link}>
                     <img
                       className="project-image"
@@ -211,9 +209,9 @@ export default function Home() {
                     />
                   </a>
                 </div>
-              </div>
             );
           })}
+          </div>
         </>
       )}
       <div className="flex-container active-section" id="contact">
