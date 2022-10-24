@@ -8,7 +8,6 @@ import changeLenguage from "../store/actions";
 import { useSelector, useDispatch } from "react-redux";
 import { SlPlus, SlClose } from "react-icons/sl";
 
-
 export default function Home() {
   const leng = useSelector((state) => state.lenguage);
 
@@ -50,7 +49,7 @@ export default function Home() {
   };
   return (
     <>
-      <div className="home-background" id='land'>
+      <div className="home-background" id="land">
         <div className="nav-container-name">
           <h1 className="title-land">LAUREANO MARENCO</h1>
           <h3 className="decoration">FULL STACK WEB DEVELOPER</h3>
@@ -108,92 +107,114 @@ export default function Home() {
           <SlPlus className="button-hidden" />
         </div>
       ) : (
-    <>
-      <div id="info" className="flex-container active-section" onClick={() => setShowAbout(false)}>
-        <h1 className="title">INFO</h1>
-        <SlClose className="button-hidden" />
-      </div>
-      <div className="body-container">
-        <div className="container-one">
-          <h2 className="title">{data[leng].about}</h2>
-          <p className="text">{data[leng].about1}</p>
-          <p className="text">{data[leng].about2}</p>
-          <p className="text">{data[leng].about3}</p>
-          <h2 className="title">{data[leng].experience}</h2>
-          {data[leng].experienceList.map((e) => {
-            return (
-              <>
-                <p className="text-gray">{e.title}</p>
-                <p className="text">
-                  {e.date} <br /> {e.description}
-                </p>
-              </>
-            );
-          })}
-        </div>
-        <div className="container-two">
-          <h2 className="title">{data[leng].competencies}</h2>
-          <h3 className="sub-title">HARD-SKILLS</h3>
-          <ul className="list">
-            <li className="item">JavaScript, TypeScript, Java</li>
-            <li className="item">React, Redux, NodeJS, Angular</li>
-            <li className="item">CSS, Tailwind, Bootstrap, SweetAlert</li>
-            <li className="item">Express, SQL, Sequelize</li>
-            <li className="item">OAuth, JWT, Passport</li>
-            <li className="item">Stripe, Nodemailer, Web-Push</li>
-            <li className="item">CI/CD, GitHub Actions, Scrum, Testing, TDD</li>
-          </ul>
-          <h3 className="sub-title">SOFT-SKILLS</h3>
-          <ul className="list">
-            <li className="item">{data[leng].softSkills}</li>
-          </ul>
-          <h3 className="sub-title">{data[leng].lenguages}</h3>
-          <ul className="list">
-            <li className="item">{data[leng].idiom1}</li>
-            <li className="item">{data[leng].idiom2}</li>
-          </ul>
-          <h2 className="title">{data[leng].other}</h2>
-          <p className="text">{data[leng].otherDescription}</p>
-        </div>
-      </div>
-      </>
+        <>
+          <div
+            id="info"
+            className="flex-container active-section"
+            onClick={() => setShowAbout(false)}
+          >
+            <h1 className="title">INFO</h1>
+            <SlClose className="button-hidden" />
+          </div>
+          <div className="body-container">
+            <div className="container-one">
+              <div className="section">
+                <h2 className="sub-title">{data[leng].about}</h2>
+                <p className="text">{data[leng].about1}</p>
+                <p className="text">{data[leng].about2}</p>
+                <p className="text">{data[leng].about3}</p>
+              </div>
+              <div className="section">
+                <h2 className="sub-title">{data[leng].experience}</h2>
+                {data[leng].experienceList.map((e) => {
+                  return (
+                    <>
+                      <p className="text-gray">{e.title}</p>
+                      <p className="text">
+                        {e.date} <br /> {e.description}
+                      </p>
+                    </>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="container-two">
+              <div className="section">
+                <h2 className="sub-title">{data[leng].competencies}</h2>
+                <h3 className="sub-title">HARD-SKILLS</h3>
+                <ul className="list">
+                  <li className="item">JavaScript, TypeScript, Java</li>
+                  <li className="item">React, Redux, NodeJS, Angular</li>
+                  <li className="item">CSS, Tailwind, Bootstrap, SweetAlert</li>
+                  <li className="item">Express, SQL, Sequelize</li>
+                  <li className="item">OAuth, JWT, Passport</li>
+                  <li className="item">Stripe, Nodemailer, Web-Push</li>
+                  <li className="item">
+                    CI/CD, GitHub Actions, Scrum, Testing, TDD
+                  </li>
+                </ul>
+                <h3 className="sub-title">SOFT-SKILLS</h3>
+                <ul className="list">
+                  <li className="item">{data[leng].softSkills}</li>
+                </ul>
+                <h3 className="sub-title">{data[leng].lenguages}</h3>
+                <ul className="list">
+                  <li className="item">{data[leng].idiom1}</li>
+                  <li className="item">{data[leng].idiom2}</li>
+                </ul>
+              </div>
+              <div className="section">
+                <h2 className="sub-title">{data[leng].other}</h2>
+                <p className="text">{data[leng].otherDescription}</p>
+              </div>
+            </div>
+          </div>
+        </>
       )}
-    {/* PROJECTS ------------------------------------------------------------------------- */}
-    {!showProjects ? (
+      {/* PROJECTS ------------------------------------------------------------------------- */}
+      {!showProjects ? (
         <div className="flex-container" onClick={() => setShowProjects(true)}>
           <h1 className="title">{data[leng].projects}</h1>
           <SlPlus className="button-hidden" />
         </div>
       ) : (
         <>
-      <div className="flex-container active-section" id="projects" onClick={() => setShowProjects(false)}>
-        <h1 className="title">{data[leng].projects}</h1>
-        <SlClose className="button-hidden" />
-      </div>
-      {data[leng].projectsList.map((p) => {
-          return (
-          <div className="project-container">
-            <div className="container-one">
-              <h3 className="text-gray">
-                {p.title}
-                <span className="text">{p.date}</span>
-              </h3>
-              <p className="text">{p.description}</p>
-              <ul>
-                {p.items.map((i) => {
-                    return <li className="text">{i}</li>;
-                })}
-              </ul>
-            </div>
-            <div className="container-two">
-              <a href={p.link}>
-                <img className="project-image" src={p.image} alt="project" />
-              </a>
-            </div>
+          <div
+            className="flex-container active-section"
+            id="projects"
+            onClick={() => setShowProjects(false)}
+          >
+            <h1 className="title">{data[leng].projects}</h1>
+            <SlClose className="button-hidden" />
           </div>
-        );
-    })}
-    </>
+          {data[leng].projectsList.map((p) => {
+            return (
+              <div className="project-container">
+                <div className="container-one">
+                  <h3 className="text-gray">
+                    {p.title}
+                    <span className="text">{p.date}</span>
+                  </h3>
+                  <p className="text">{p.description}</p>
+                  <ul>
+                    {p.items.map((i) => {
+                      return <li className="text">{i}</li>;
+                    })}
+                  </ul>
+                </div>
+                <div className="container-two">
+                  <a href={p.link}>
+                    <img
+                      className="project-image"
+                      src={p.image}
+                      alt="project"
+                    />
+                  </a>
+                </div>
+              </div>
+            );
+          })}
+        </>
       )}
       <div className="flex-container active-section" id="contact">
         <h1 className="title">{data[leng].contact}</h1>
