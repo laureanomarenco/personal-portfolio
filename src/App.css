@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
+html {
+  width: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +19,9 @@ h1 {
   display: flex;
   padding: 1em;
   justify-content: space-between;
-  max-width: 100vw;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 820px) {
   .photo {
     width: auto;
     height: 12rem;
@@ -75,7 +78,7 @@ h1 {
   }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 819px) {
   .photo {
     visibility: hidden;
     width: auto;
@@ -116,13 +119,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 2em;
+    padding: 6em 2em;
   }
+
   .home-background {
     background-color: rgb(215, 216, 218);
-    height: 50vh;
-    width: auto;
-    display: flex;
+    height: 100vh;
+    width: 100vw;
     justify-content: space-between;
     font-family: "Montserrat", sans-serif;
   }
