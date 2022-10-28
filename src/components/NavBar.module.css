@@ -2,6 +2,7 @@
     padding: 1em;
     display: flex;
     justify-content: space-between;
+    box-shadow: 10px 5px 5px black;
 }
 
 .navLink {

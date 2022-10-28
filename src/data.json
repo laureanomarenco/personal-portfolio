@@ -32,7 +32,7 @@
                 "title": "Web Page Pokemon Tribute",
                 "date": "[Ago 2022]",
                 "description": "Comprehensively design and develop the page usign React, Redux, Express y SQL, effectively integrating the pokemon API to retrieve the data.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032107/6x93vp_nolefh.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986505/pokegif_i7f6mc.gif",
                 "link": "https://pokemon-tribute.vercel.app/",
                 "items": [
                     "Design and color concepts",
@@ -44,7 +44,7 @@
                 "title": "Web Page Mascotapp",
                 "date": "[Oct 2022]",
                 "description": "Design and develop the page in an agile team using React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032022/6x93hs_ekzrx7.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986874/mascotagif_vtirrn.gif",
                 "link": "https://mascotapps.vercel.app/",
                 "items": [
                     "Lead the CI/CD integration and deployment of the team.",
@@ -56,7 +56,7 @@
                 "title": "Torrente Magazine",
                 "date": "[Ene 2020 - Mar 2020]",
                 "description": "I lead the team. Design and development in team",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032188/6x942c_x2z7nc.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986627/torrentegif_gnogsu.gif",
                 "link": "_blank",
                 "items": [
                     "I lead the team and the general idea of the magazine",
@@ -116,7 +116,7 @@
                 "title": "Página web Pokemon Tribute",
                 "date": "[Ago 2022]",
                 "description": "Diseñar y desarrollar integralmente la página utilizando React, Redux, Express y SQL, integrando efectivamente la API de pokemon para recuperar los datos.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032107/6x93vp_nolefh.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986505/pokegif_i7f6mc.gif",
                 "link": "https://pokemon-tribute.vercel.app/",
                 "items": [
                     "Conceptos de diseño y color",
@@ -128,7 +128,7 @@
                 "title": "Página web Mascotapp",
                 "date": "[Oct 2022]",
                 "description": "Diseñar y desarrollar en equipo ágil la página utilizando React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032022/6x93hs_ekzrx7.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986874/mascotagif_vtirrn.gif",
                 "link": "https://mascotapps.vercel.app/",
                 "items": [
                     "Lideré CI/CD integración y deploy del equipo",
@@ -140,7 +140,7 @@
                 "title": "Revista Torrente",
                 "date": "[Ene 2020 - Mar 2020]",
                 "description": "Liderar el equipo de trabajo. Diseñar y desarrollar en equipo la revista utilizando conceptos de maquetación, color y diseño.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666032188/6x942c_x2z7nc.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986627/torrentegif_gnogsu.gif",
                 "link": "_blank",
                 "items": [
                     "Lideré el equipo y la idea de general de la revista",

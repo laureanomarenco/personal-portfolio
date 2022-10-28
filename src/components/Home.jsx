@@ -7,6 +7,7 @@ import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import changeLenguage from "../store/actions";
 import { useSelector, useDispatch } from "react-redux";
 import { SlPlus, SlClose } from "react-icons/sl";
+//import { SiReact, SiExpress, SiSequelize, SiAngular, SiJava, SiPostgresql } from "react-icons/si";
 
 export default function Home() {
   const leng = useSelector((state) => state.lenguage);
