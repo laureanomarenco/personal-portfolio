@@ -63,6 +63,18 @@
                     "Layout on inDesign using professional techniques",
                     "Edition in Photoshop of some material to the magazine"
                 ]
+            },
+            {
+                "title": "Previous Portfolio",
+                "date": "[Mar 2021]",
+                "description": "DDevelop with Angular and Java this personal portfolio",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666963251/portold_hgj0yc.gif",
+                "link": "https://marenco-laureano.web.app/",
+                "items": [
+                    "Develop with Angular and Java",
+                    "Configuration of enviroments and deploy",
+                    "Insertion of videos and image galleries"
+                ]
             }
         ],
         "contact": "CONTACT ME",
@@ -134,6 +146,18 @@
                     "Lideré el equipo y la idea de general de la revista",
                     "Maquetación en inDesign utilizando técnicas profesionales",
                     "Edición en Photoshop de varios materiales para la revista."
+                ]
+            },
+            {
+                "title": "Portfolio Anterior",
+                "date": "[Mar 2021]",
+                "description": "Desarrollé en Angular y Java mi primer portfolio.",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666963251/portold_hgj0yc.gif",
+                "link": "https://marenco-laureano.web.app/",
+                "items": [
+                    "Utilización de Angular y Java",
+                    "Configuración de entornos y deploy",
+                    "Inserción de videos y galerias de imagenes."
                 ]
             }
         ],
