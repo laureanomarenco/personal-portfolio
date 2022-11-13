@@ -34,6 +34,7 @@
                 "description": "Comprehensively design and develop the page usign React, Redux, Express y SQL, effectively integrating the pokemon API to retrieve the data.",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986505/pokegif_i7f6mc.gif",
                 "link": "https://pokemon-tribute.vercel.app/",
+                "github": "https://github.com/laureanomarenco/pokemon-front",
                 "items": [
                     "Design and color concepts",
                     "Conditional rendering",
@@ -46,6 +47,7 @@
                 "description": "Design and develop the page in an agile team using React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986874/mascotagif_vtirrn.gif",
                 "link": "https://mascotapps.vercel.app/",
+                "github": "https://github.com/laureanomarenco/mascotapps-front",
                 "items": [
                     "Lead the CI/CD integration and deployment of the team.",
                     "Effectively implement automatic mail systems with nodemailer and payment system with Stripe.",
@@ -53,23 +55,25 @@
                 ]
             },
             {
-                "title": "Torrente Magazine",
-                "date": "[Ene 2020 - Mar 2020]",
-                "description": "I lead the team. Design and development in team",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986627/torrentegif_gnogsu.gif",
-                "link": "_blank",
+                "title": "Next ecommerce",
+                "date": "[Oct 2020]",
+                "description": "Develop ecommerce with Next, MongobDB and Tailwind",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1668352846/ecommercegif_y1xhf0.gif",
+                "link": "https://hakuna-batata.vercel.app/",
+                "github": "https://github.com/laureanomarenco/e-commerce-next",
                 "items": [
-                    "I lead the team and the general idea of the magazine",
-                    "Layout on inDesign using professional techniques",
-                    "Edition in Photoshop of some material to the magazine"
+                    "Design and develop the ecommerce using good practices of Next.js styled with Tailwind",
+                    "Magement of products and users with MongoDB",
+                    "Payments with PayPal"
                 ]
             },
             {
                 "title": "Previous Portfolio",
                 "date": "[Mar 2021]",
-                "description": "DDevelop with Angular and Java this personal portfolio",
+                "description": "Develop with Angular and Java this personal portfolio",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666963251/portold_hgj0yc.gif",
                 "link": "https://marenco-laureano.web.app/",
+                "github": "https://github.com/laureanomarenco/A-portfolio",
                 "items": [
                     "Develop with Angular and Java",
                     "Configuration of enviroments and deploy",
@@ -117,7 +121,7 @@
                 "date": "[Ago 2022]",
                 "description": "Diseñar y desarrollar integralmente la página utilizando React, Redux, Express y SQL, integrando efectivamente la API de pokemon para recuperar los datos.",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986505/pokegif_i7f6mc.gif",
-                "link": "https://pokemon-tribute.vercel.app/",
+                "github": "https://github.com/laureanomarenco/pokemon-front",
                 "items": [
                     "Conceptos de diseño y color",
                     "Renderizado condicional",
@@ -130,6 +134,7 @@
                 "description": "Diseñar y desarrollar en equipo ágil la página utilizando React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986874/mascotagif_vtirrn.gif",
                 "link": "https://mascotapps.vercel.app/",
+                "github": "https://github.com/laureanomarenco/mascotapps-front",
                 "items": [
                     "Lideré CI/CD integración y deploy del equipo",
                     "Implementé sistemas de mail con nodemailer y sistema de pagos con Stripe",
@@ -137,15 +142,16 @@
                 ]
             },
             {
-                "title": "Revista Torrente",
-                "date": "[Ene 2020 - Mar 2020]",
-                "description": "Liderar el equipo de trabajo. Diseñar y desarrollar en equipo la revista utilizando conceptos de maquetación, color y diseño.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986627/torrentegif_gnogsu.gif",
-                "link": "_blank",
+                "title": "Next ecommerce",
+                "date": "[Oct 2020]",
+                "description": "Desarrollar un ecommerce con Next, MongoDB y Tailwind",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1668352846/ecommercegif_y1xhf0.gif",
+                "link": "https://hakuna-batata.vercel.app/",
+                "github": "https://github.com/laureanomarenco/e-commerce-next",
                 "items": [
-                    "Lideré el equipo y la idea de general de la revista",
-                    "Maquetación en inDesign utilizando técnicas profesionales",
-                    "Edición en Photoshop de varios materiales para la revista."
+                    "Diseñar y desarrollar con buenos practicas de NextJs estilando con Tailwind",
+                    "Gestión de usuarios y productos con MongoDB",
+                    "Pagos con PayPal"
                 ]
             },
             {
@@ -154,6 +160,7 @@
                 "description": "Desarrollé en Angular y Java mi primer portfolio.",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666963251/portold_hgj0yc.gif",
                 "link": "https://marenco-laureano.web.app/",
+                "github": "https://github.com/laureanomarenco/A-portfolio",
                 "items": [
                     "Utilización de Angular y Java",
                     "Configuración de entornos y deploy",

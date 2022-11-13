@@ -3,7 +3,12 @@ import data from "../data.json";
 import axios from "axios";
 import Swal from "sweetalert2";
 import React, { useState } from "react";
-import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillEye,
+} from "react-icons/ai";
 import changeLenguage from "../store/actions";
 import { useSelector, useDispatch } from "react-redux";
 import { SlPlus, SlClose } from "react-icons/sl";
@@ -12,9 +17,8 @@ import { SlPlus, SlClose } from "react-icons/sl";
 export default function Home() {
   const leng = useSelector((state) => state.lenguage);
 
-  const [showAbout, setShowAbout] = useState(true);
+  const [showAbout, setShowAbout] = useState(false);
   const [showProjects, setShowProjects] = useState(true);
-  const [showContact, setShowContact] = useState(true);
 
   const dispatch = useDispatch();
   function handleClick(e) {
@@ -60,10 +64,10 @@ export default function Home() {
             <a href="mailto:laureanomarenco@gmail.com" className="no-deco">
               <AiOutlineMail className="icon" />
             </a>
-            <a href="https://github.com/laureanomarenco">
+            <a href="https://github.com/laureanomarenco" target='_blank'>
               <AiFillGithub className="icon" />
             </a>
-            <a href="https://www.linkedin.com/in/laureano-marenco/">
+            <a href="https://www.linkedin.com/in/laureano-marenco/" target='_blank'>
               <AiFillLinkedin className="icon" />
             </a>
             {leng === "eng" ? (
@@ -145,9 +149,9 @@ export default function Home() {
                 <h3 className="sub-title">HARD-SKILLS</h3>
                 <ul className="list">
                   <li className="item">JavaScript, TypeScript, Java</li>
-                  <li className="item">React, Redux, NodeJS, Angular</li>
+                  <li className="item">React, Redux, NodeJS, Angular, Next</li>
                   <li className="item">CSS, Tailwind, Bootstrap, SweetAlert</li>
-                  <li className="item">Express, SQL, Sequelize</li>
+                  <li className="item">Express, PostgreSQL, Sequelize, MongoDB, Mongoose</li>
                   <li className="item">OAuth, JWT, Passport</li>
                   <li className="item">Stripe, Nodemailer, Web-Push</li>
                   <li className="item">
@@ -189,8 +193,8 @@ export default function Home() {
             <SlClose className="button-hidden" />
           </div>
           <div className="project-container">
-          {data[leng].projectsList.map((p) => {
-            return (
+            {data[leng].projectsList.map((p) => {
+              return (
                 <div className="section">
                   <h3 className="text-gray">
                     {p.title}
@@ -201,6 +205,12 @@ export default function Home() {
                     {p.items.map((i) => {
                       return <li className="text">{i}</li>;
                     })}
+                    <a href={p.link} target='_blank'>
+                      <AiFillEye className="icon"></AiFillEye>
+                    </a>
+                    <a href={p.github} target='_blank'>
+                      <AiFillGithub className="icon"></AiFillGithub>
+                    </a>
                   </ul>
                   <a href={p.link}>
                     <img
@@ -210,8 +220,8 @@ export default function Home() {
                     />
                   </a>
                 </div>
-            );
-          })}
+              );
+            })}
           </div>
         </>
       )}
@@ -223,15 +233,15 @@ export default function Home() {
           <p className="text-contact">{data[leng].contactText}</p>
           <div className="flex-container-row">
             <p className="text">laureanomarenco@gmail.com</p>
-            <a
-              href="https://www.linkedin.com/in/laureano-marenco/"
-              className="text"
-            >
-              Linkedin
+            <div className="container-links">
+
+            <a href="https://github.com/laureanomarenco" target='_blank'>
+              <AiFillGithub className="icon" />
             </a>
-            <a href="https://github.com/laureanomarenco" className="text">
-              GitHub
+            <a href="https://www.linkedin.com/in/laureano-marenco/" target='_blank'>
+              <AiFillLinkedin className="icon" />
             </a>
+            </div>
           </div>
         </div>
         <div className="container-two">
