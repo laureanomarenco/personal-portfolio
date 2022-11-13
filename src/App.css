@@ -22,10 +22,15 @@ h1 {
 }
 
 @media (min-width: 820px) {
+  .text {
+    font-family: "Montserrat", sans-serif;
+    padding: 0 4vh 4vh 4vh;
+  }
+
   .photo {
     width: auto;
     height: 12rem;
-    margin: 12rem 10rem 0 8rem;
+    margin: 6rem 10rem 0 8rem;
     border-radius: 50%;
   }
 
@@ -54,24 +59,25 @@ h1 {
   }
 
   .list {
-    padding: 0 0 2vh 8vh;
+    padding: 0 0 1vh 8vh;
   }
 
   .item {
     font-family: "Montserrat", sans-serif;
-    padding: 0 0 0 4vh;
+    padding: 0;
   }
 
   .nav-container-name {
-    padding: 13rem 2rem 0 8rem;
+    padding: 4rem 2rem 4rem 8rem;
     display: flex;
     flex-direction: column;
   }
 
   .home-background {
     background: radial-gradient(circle, rgba(218,218,218,1) 0%, rgba(245,245,245,1) 100%);
-    height: 100vh;
+    height: auto;
     width: auto;
+    border: 1.4px solid rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
     font-family: "Montserrat", sans-serif;
@@ -79,6 +85,11 @@ h1 {
 }
 
 @media (max-width: 819px) {
+  .text {
+    font-family: "Montserrat", sans-serif;
+    padding: 0 4vh 2vh 4vh;
+  }
+
   .photo {
     visibility: hidden;
     width: auto;
@@ -107,7 +118,7 @@ h1 {
   }
 
   .list {
-    padding: 0 1vh 2vh 4vh;
+    padding: 0 1vh 2vh 8vh;
   }
 
   .item {
@@ -134,12 +145,13 @@ h1 {
 
 .icon {
   color: black;
-  padding: 1em 1em 1em 0;
+  padding: 1em 1em 0 0;
   width: auto;
   height: 2rem;
   transition-property: width, height;
   transition-duration: 0.5s;
 }
+
 
 .icon:hover {
   width: auto;
@@ -150,6 +162,7 @@ h1 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  border: 1.4px solid rgba(0, 0, 0, 0.2);
   cursor: pointer;
   background: radial-gradient(circle, rgb(255, 251, 233) 0%, rgb(251, 243, 224) 100%);
   transition-property: background-color;
@@ -227,22 +240,26 @@ h1 {
   padding: 2vh 4vh 2vh 4vh;
 }
 
-.text {
+/* .text {
   font-family: "Montserrat", sans-serif;
-  padding: 0 4vh 2vh 4vh;
-}
+  padding: 0 4vh 4vh 4vh;
+} */
 
 .text-gray {
   color: rgb(156, 158, 181);
+  margin: 2vh 0 2vh 0;  
   font-family: "Montserrat", sans-serif;
-  padding: 2vh 4vh 0 4vh;
+  padding: 2vh 0 0 4vh;
 }
 
 .text-contact {
   font-family: "Montserrat", sans-serif;
   padding: 4vh;
 }
-
+.title-section {
+  display: flex;
+  align-items: center;
+}
 .eng {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -313,33 +330,18 @@ h1 {
   margin-top: 1em;
 }
 
-.logo {
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  font-weight: 700;
-  padding: 2px 5px 2px 4px;
-  border: 2px solid black;
-  border-radius: 2px;
-  transition-property: border color box-shadow;
-  transition-duration: 0.7s;
-}
-
-.logo:hover {
-  color: rgb(156, 156, 30);
-  border: 2px solid rgb(156, 156, 30);
-  box-shadow: 1px 1px 30px 1px rgb(156, 156, 30);
-}
-
 .section {
   margin: 1em;
   padding: 0;
+  border: 1.4px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  transition-property: background-color;
+  transition-property: box-shadow border;
   transition-duration: 0.7s;
 }
 
 .section:hover {
-  background: radial-gradient(circle, rgb(242, 251, 242) 0%, rgb(243, 255, 247) 100%)
+  border: 1.4px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 20px 2px rgba(120, 120, 120, 0.267);
 }
 
 .container-links {

@@ -1,7 +1,7 @@
 export const LENG = "LENG";
 
 const initialState = {
-  lenguage: "eng",
+  lenguage: "esp",
 };
 
 export default function reducer(state = initialState, action) {

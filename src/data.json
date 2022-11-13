@@ -29,7 +29,7 @@
         "projectsNav": "Projects",
         "projectsList": [
             {
-                "title": "Web Page Pokemon Tribute",
+                "title": "Pokemon Tribute",
                 "date": "[Ago 2022]",
                 "description": "Comprehensively design and develop the page usign React, Redux, Express y SQL, effectively integrating the pokemon API to retrieve the data.",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986505/pokegif_i7f6mc.gif",
@@ -42,10 +42,10 @@
                 ]
             },
             {
-                "title": "Web Page Mascotapp",
+                "title": "Mascotapp",
                 "date": "[Oct 2022]",
                 "description": "Design and develop the page in an agile team using React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986874/mascotagif_vtirrn.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1668366920/mascotagif_t5cjfi.gif",
                 "link": "https://mascotapps.vercel.app/",
                 "github": "https://github.com/laureanomarenco/mascotapps-front",
                 "items": [
@@ -71,7 +71,7 @@
                 "title": "Previous Portfolio",
                 "date": "[Mar 2021]",
                 "description": "Develop with Angular and Java this personal portfolio",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666963251/portold_hgj0yc.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1668367087/portold_wefbwp.gif",
                 "link": "https://marenco-laureano.web.app/",
                 "github": "https://github.com/laureanomarenco/A-portfolio",
                 "items": [
@@ -88,7 +88,7 @@
         "send": "send"
     },
     "esp": {
-        "description": "¡Hola! Soy un diseñador web que busca su primer trabajo oficial para seguir creando sitios y aplicaciones. Tengo experiencia en diseño y comunicación social, lo que me ayuda mucho para iniciarme en el mundo de las TI. ¡Estoy muy motivada por seguir aprendiendo más cosas!",
+        "description": "¡Hola! Soy un desarrollador especializandome en sitios y aplicaciones. Tengo experiencia en diseño y comunicación social, lo que me ayudó mucho para iniciarme en el mundo de las TI. ¡Estoy muy motivado y sigo aprendiendo día a día!",
         "about": "SOBRE MI",
         "about1": "Full Stack web developer con formación especializada en Comunicación y Diseño Web.  Experiencia trabajando con NodeJS, React, Redux, SQL, Express, entre otras teconologías.",
         "about2": "Lideré CI/CD de una web-app orientada a conectar personas y mascotas, también participando de su diseño y desarrollo.",
@@ -117,7 +117,7 @@
         "projectsNav": "Proyectos",
         "projectsList": [
             {
-                "title": "Página web Pokemon Tribute",
+                "title": "Pokemon Tribute",
                 "date": "[Ago 2022]",
                 "description": "Diseñar y desarrollar integralmente la página utilizando React, Redux, Express y SQL, integrando efectivamente la API de pokemon para recuperar los datos.",
                 "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986505/pokegif_i7f6mc.gif",
@@ -129,10 +129,10 @@
                 ]
             },
             {
-                "title": "Página web Mascotapp",
+                "title": "Mascotapp",
                 "date": "[Oct 2022]",
                 "description": "Diseñar y desarrollar en equipo ágil la página utilizando React, Redux, Express y SQL, Auth0, JWT, Stripe ,etc.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666986874/mascotagif_vtirrn.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1668366920/mascotagif_t5cjfi.gif",
                 "link": "https://mascotapps.vercel.app/",
                 "github": "https://github.com/laureanomarenco/mascotapps-front",
                 "items": [
@@ -158,7 +158,7 @@
                 "title": "Portfolio Anterior",
                 "date": "[Mar 2021]",
                 "description": "Desarrollé en Angular y Java mi primer portfolio.",
-                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1666963251/portold_hgj0yc.gif",
+                "image": "https://res.cloudinary.com/dg7ssgadn/image/upload/v1668367087/portold_wefbwp.gif",
                 "link": "https://marenco-laureano.web.app/",
                 "github": "https://github.com/laureanomarenco/A-portfolio",
                 "items": [

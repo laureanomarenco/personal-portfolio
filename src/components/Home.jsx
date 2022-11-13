@@ -101,7 +101,7 @@ export default function Home() {
         </div>
         <img
           className="photo"
-          src="https://res.cloudinary.com/dg7ssgadn/image/upload/v1665847714/fotoCV2_aymut9.png"
+          src="https://res.cloudinary.com/dg7ssgadn/image/upload/v1668366350/4x4_yrzdfc.png"
           alt="Laureano"
         />
       </div>
@@ -167,6 +167,7 @@ export default function Home() {
                   <li className="item">{data[leng].idiom1}</li>
                   <li className="item">{data[leng].idiom2}</li>
                 </ul>
+                <br/>
               </div>
               <div className="section">
                 <h2 className="sub-title">{data[leng].other}</h2>
@@ -196,21 +197,26 @@ export default function Home() {
             {data[leng].projectsList.map((p) => {
               return (
                 <div className="section">
+                  <div className="title-section">
                   <h3 className="text-gray">
                     {p.title}
                     <span className="text">{p.date}</span>
                   </h3>
-                  <p className="text">{p.description}</p>
-                  <ul className="list">
-                    {p.items.map((i) => {
-                      return <li className="text">{i}</li>;
-                    })}
+                    <span className="links-container">
+
                     <a href={p.link} target='_blank'>
                       <AiFillEye className="icon"></AiFillEye>
                     </a>
                     <a href={p.github} target='_blank'>
                       <AiFillGithub className="icon"></AiFillGithub>
                     </a>
+                    </span>
+                    </div>
+                  <p className="text">{p.description}</p>
+                  <ul className="list">
+                    {p.items.map((i) => {
+                      return <li className="item">{i}</li>;
+                    })}
                   </ul>
                   <a href={p.link}>
                     <img
