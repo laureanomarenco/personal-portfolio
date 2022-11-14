@@ -198,7 +198,7 @@ export default function Home() {
               return (
                 <div className="section">
                   <div className="title-section">
-                  <h3 className="text-gray">
+                  <h3 className="text-gray-title">
                     {p.title}
                     <span className="text">{p.date}</span>
                   </h3>

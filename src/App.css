@@ -30,7 +30,7 @@ h1 {
   .photo {
     width: auto;
     height: 12rem;
-    margin: 6rem 10rem 0 8rem;
+    margin: 4rem 10rem 0 8rem;
     border-radius: 50%;
   }
 
@@ -244,8 +244,14 @@ h1 {
   font-family: "Montserrat", sans-serif;
   padding: 0 4vh 4vh 4vh;
 } */
-
 .text-gray {
+  color: rgb(123, 123, 123);
+  margin: 2vh 0 0 0;  
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 0 4vh;
+}
+
+.text-gray-title {
   color: rgb(156, 158, 181);
   margin: 2vh 0 2vh 0;  
   font-family: "Montserrat", sans-serif;
